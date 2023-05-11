@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 import sys
 
 count = len(sys.argv) - 1
