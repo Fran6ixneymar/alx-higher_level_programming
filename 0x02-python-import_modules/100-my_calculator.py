@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-
 if __name__ == "__main__":
-    """To complete basic arithmetic operations."""
-    from calculator_1 import add, sub, mul, div 
+    """To carry-out basic arithmetic operations."""
+    from calculator_1 import add, sub, mul, div
     import sys
 
     if len(sys.argv) - 1 != 3:
