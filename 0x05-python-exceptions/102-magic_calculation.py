@@ -3,13 +3,15 @@
 
 def magic_calculation(a, b):
     result = 0
-    for fig in range(1, 3):
+
+    for i in range(1, 3):
         try:
-            if fig > a:
+            if i > a:
                 raise Exception('Too far')
-            else:
-                result += a ** b / fig
+
+            result += a ** b / i
         except:
             result = b + a
             break
-    return (result)
+
+    return result
