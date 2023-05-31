@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-
 """The definition of classes for a singly-linked list."""
-
 
 class Node:
     """This represents a node in a singly-linked list."""
