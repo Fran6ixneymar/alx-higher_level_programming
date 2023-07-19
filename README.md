@@ -1,1 +1,1 @@
-Python is a high level programming language and i am going to be working majorly with the python programming language on this repository.
+This is a where all my python higher level languages would be done.
