@@ -19,11 +19,11 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    seen = False
+    found = False
     for state in session.query(State):
         if state.name == sys.argv[4]:
             print("{}".format(state.id))
-            seen = True
+            found = True
             break
-    if seen is False:
-        print("Not seen")
+    if found is False:
+        print("Not found")
